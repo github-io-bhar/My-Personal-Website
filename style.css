@@ -1,9 +1,8 @@
 body {
     text-align: center;
 }
+
 #app {
-    width: 100%;
-    height: 800px;
     background-color: aquamarine;
 }
 
@@ -15,8 +14,6 @@ body {
 }
 
 #game {
-    width: 100%;
-    height: 800px;
     background-color: lightcyan;
 }
 
@@ -29,7 +26,94 @@ img:hover {
 }
 
 #chatbot {
-    width: 100%;
-    height: 800px;
     background-color: antiquewhite;
+}
+
+p {
+    font-size: 30px;
+}
+
+body {
+    background-color: darkturquoise;
+}
+
+h2 {
+    text-shadow: 2px 2px #F44336;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+#details {
+    background-color: yellow;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    text-align: center;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.link {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.link {
+    float: left;
+    color: #FFF;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
 }
