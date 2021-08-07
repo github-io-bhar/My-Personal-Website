@@ -37,25 +37,10 @@ body {
     background-color: darkturquoise;
 }
 
-h2 {
+#h2 {
     text-shadow: 2px 2px #F44336;
     font-size: 50px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-h4 {
-    font-size: 20px;
-}
-
-h5 {
-    font-size: 20px;
-}
-
-h6 {
-    font-size: 20px;
+    font-family: fantasy;
 }
 
 #details {
@@ -116,4 +101,20 @@ li a:hover {
 
 html {
     scroll-behavior: smooth;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact iframe {
+    width: 80%;
+}
+
+#contact {
+    background-color: darkkhaki;
+    height: 1000px;
 }
